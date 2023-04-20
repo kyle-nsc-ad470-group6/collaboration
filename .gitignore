@@ -1,1 +1,2 @@
-*.csv
+/data/zip_code_added/
+*temp*
