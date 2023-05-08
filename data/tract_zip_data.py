@@ -18,6 +18,9 @@ def main():
         if df_tract.shape[0] > 1:
             df_tract = df_tract.sort_values(by='tot_ratio', ascending=False)
             df_unique_tracts.append(df_tract.iloc[[0]])
+        elif df_tract.shape[0] == 1:
+            df_unique_tracts.append(df_tract)
+
 
     # output data
     df_out = pd.concat(df_unique_tracts)

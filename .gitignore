@@ -1,6 +1,4 @@
-/data/processed_data/
 *temp*
 .git
 /gender-guesser/
-Seattle_Pet_Licenses.csv
 data/tract_zip_data.csv
