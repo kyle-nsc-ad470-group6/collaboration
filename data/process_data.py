@@ -27,14 +27,14 @@ def drop_excluded(items: list, exclusions: list) -> list:
 
 def main():
     # import census tract information
-    zip_tracts_filename = 'zip_tracts_seattle.csv'
+    zip_tracts_filename = 'tract_zip_data.csv'
     df_tracts = pd.read_csv(zip_tracts_filename)
     df_tracts = df_tracts.filter(items=['zip', 'tract'], axis='columns')
 
     # get csv files in directory
     current_directory = os.getcwd()
     output_directory_name = 'processed_data'
-    excluded_csv_files = ['TRACT', 'zip_tracts', 'temp', 'Pet_Licenses']
+    excluded_csv_files = ['TRACT', 'zip_tracts', 'temp', 'Pet_Licenses', 'tract_zip']
     csv_files = [i for i in os.listdir(os.getcwd()) if 'csv' in i]
     csv_files = drop_excluded(csv_files, excluded_csv_files)
 
@@ -63,7 +63,6 @@ def main():
     df_license = df_license[df_license['ZIP Code'].isin(zip_codes)]
     os.chdir(current_directory+'\\'+output_directory_name)
     df_license.to_csv(pet_data_filename)
-
 
 
 if __name__ == '__main__':
