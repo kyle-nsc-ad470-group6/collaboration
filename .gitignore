@@ -2,3 +2,4 @@
 .git
 /gender-guesser/
 data/tract_zip_data.csv
+data/processed_data/
