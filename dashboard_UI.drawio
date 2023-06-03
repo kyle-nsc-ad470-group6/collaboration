@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-05-29T04:20:13.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RRkFfoCBpFrE_3EDMdEK" version="21.2.9" type="device">
+  <diagram name="Page-1" id="fkDASU7BaaudX8Qqrz6j">
+    <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-2" value="Dropdown button" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#6C767D;fontColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=0;fontSize=14;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-3" value="" style="shape=triangle;direction=south;fillColor=#ffffff;strokeColor=none;perimeter=none;" vertex="1" parent="4iLRKRo9xXXvEXCus2cG-2">
+          <mxGeometry x="1" y="0.5" width="10" height="5" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-4" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#ffffff;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="230" y="243" width="170" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-5" value="Dog" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="4iLRKRo9xXXvEXCus2cG-4">
+          <mxGeometry width="170" height="30" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-6" value="Cat" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="4iLRKRo9xXXvEXCus2cG-4">
+          <mxGeometry width="170" height="30" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-8" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7ui.slider;barPos=20;strokeColor=#0080f0;strokeColor2=#a0a0a0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="310" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-9" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.barChart;strokeColor=none;strokeColor2=none;strokeColor3=#666666;fillColor2=#008cff;fillColor3=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-10" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-11" value="10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iLRKRo9xXXvEXCus2cG-12" value="User selects dog or cat, and then can use slider to determine the number of top breeds to show for each. Interface may be reused to show number of monthly registration, but slider will be adjusted to allow value range from 1 to 12. Last graphic to show name classification by month and year filters.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="660" width="410" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
